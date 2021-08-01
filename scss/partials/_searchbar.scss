@@ -1,0 +1,21 @@
+input,textarea{width:100%;display:block}
+.search{
+    margin: 0 20px;
+    input { 
+        display: block;
+        border-radius: 5px;
+        border: rgb(214, 214, 214) solid 2px;
+        margin: auto;
+        margin-top: 30px;
+        max-width: 500px;
+        height: 50px;
+        padding-left: 10px;
+        color:rgb(88, 88, 88);
+        font-size: 12px;
+
+        &::placeholder{
+            color: rgb(151, 151, 151);
+            opacity: 1;
+        }
+    }
+}
